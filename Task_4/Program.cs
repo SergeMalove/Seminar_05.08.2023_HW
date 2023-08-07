@@ -2,7 +2,7 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-System.Console.Write("Введите положительное число: ");
+System.Console.Write("Введите положительное целое число больше 1: ");
 int num = int.Parse(Console.ReadLine());
 
 for (int i = 2; i <= num; i += 2)

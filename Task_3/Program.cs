@@ -3,7 +3,7 @@
 // -3 -> нет
 // 7 -> нет
 
-System.Console.Write("Введите число: ");
+System.Console.Write("Введите целое число число: ");
 int num = int.Parse(Console.ReadLine());
 
 if (num == 0) System.Console.WriteLine("Введенное число равно нулю");
