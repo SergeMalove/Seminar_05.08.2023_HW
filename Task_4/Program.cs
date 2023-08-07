@@ -5,7 +5,11 @@
 System.Console.Write("Введите положительное число: ");
 int num = int.Parse(Console.ReadLine());
 
-for (int i = 2; i <= num; i+=2)
-{   
-    System.Console.Write(i + ", ");
+for (int i = 2; i <= num; i += 2)
+{
+    System.Console.Write(i);
+    if (i < (num - 1))
+    {
+        System.Console.Write(", ");
+    }
 }
